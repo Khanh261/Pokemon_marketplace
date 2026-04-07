@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Hardhat / Contracts
+contracts/cache/
+contracts/artifacts/
+contracts/typechain-types/
+contracts/deployed-address.json
+
+# Backend dist
+backend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
